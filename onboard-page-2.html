@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Wema Faith onboard-page</title>
+</head>
+<body>
+
+    <section>
+        <div class="hero on-borad">
+            <!-- <div class="overlay"></div> -->
+            <div class="container">
+                <div class="col-text">
+                    <div class="col-text-holder">
+                        <h1>WEMA FAITH</h1>
+                        <p>A range of technology and financial solutions for Churches and other faith-based organizations.</p>
+                    </div>
+                    <div class="col-logo">
+                        <h5>Join 11,200 using WEMA Faith solution</h5>
+                        <div class="church-logos">
+                            <span class="logo"><img src="/images/download-1.png" alt=""></span>
+                            <span class="logo"><img src="/images/winners-logo.png" alt=""></span>
+                            <span class="logo"><img src="/images/assemblies-of-god-logo.png" alt=""></span>
+                            <span class="logo"><img src="/images/cgmi1-min-Mask.png" alt=""></span>
+                            <span class="logo"><img src="/images/cornerstone-bible-church-logo1-1024x1024-1.png" alt=""></span>
+                            <span class="logo"><img src="/images/insight_bible-church_Mask-2.png" alt=""></span>
+                            <span class="logo"><img src="/images/Lbbwk7FK_400x400.jpg" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-image">
+
+                    <h3>Get On-board!</h3>
+                    <h4>Fields marked with an <sup>*</sup> are required</h4>
+                    <div class="form">
+                        <form id="info">
+                        <label for="mem-size"><h5>Select your church membership size<sup>*</sup></h5>
+                           <div class="select">
+                            <span class="icon"><i class="fa-solid fa-chevron-down"></i></span>
+                            <select name="member-size" id="member-size">
+                                <option value="">Select church-size</option>
+                                <option value="0">Free Plan (0 - 50 members)</option>
+                                <option value="3000">Starter Plan (51 - 200 members)</option>
+                                <option value="6000">Basic Plan (201 - 500 members)</option>
+                                <option value="10000">Growth Plan (501 - 2000 members)</option>
+                            </select>
+                           </div>
+                        </label> 
+
+
+                            <!-- Church Website section -->
+
+                            <h5>Do you need a church website<sup>*</sup></h5>
+                            <input type="radio" id="yes" name="needWebsite" value="yes" checked class="chg2">
+                            <label for="yes" class="label">Yes</label><br>
+
+                            <input type="radio" id="no" name="needWebsite" value="no" class="chg3" checked>
+                            <label for="no" class="label">No</label><br>
+
+
+                            <label for="websit-parkage" class="hidn2 hidnDropdown"><h5>Select the website package you need<sup>*</sup></h5>
+                                <div class="select">
+                                    <span class="icon"><i class="fa-solid fa-chevron-down"></i></span>
+                                    <select name="websit-parkage" id="websit-parkage">
+                                        <option value="">Select Website-Type</option>
+                                        <option value="70000">Basic Website</option>
+                                        <option value="130000">Standard Website</option>
+                                        <option value="300000">Premuim Website</option>
+                                    </select>
+                                </div>
+                            </label>
+
+
+                            <!-- Moblie App section -->
+                            <h5>Do you need a church mobile app<sup>*</sup></h5>
+                            <input type="radio" id="yes1" name="mobileapp" value="yes" checked class="chg">
+                            <label for="yes1" class="label">Yes</label><br>
+
+                            <input type="radio" id="no1" name="mobileapp" value="no" class="chg1" checked>
+                            <label for="no1" class="label">No</label><br>
+                        
+
+                            <label for="mobileapp" class="hidn hidnDropdown"><h5>Select the mobile app package you need<sup>*</sup></h5>
+                                
+                               <div class="select"> 
+                                <span class="icon"><i class="fa-solid fa-chevron-down"></i></span>
+                                <select name="mobileapp" id="mobileapp">
+                                    <option value="">Select App-Type</option>
+                                    <option value="400000">Andriod</option>
+                                    <option value="400000">IOS</option>
+                                    <option value="800000">Andriod and IOS</option>
+                                </select> </div>
+                            </label> 
+
+                            <h5>Total Monthly Payment: #<span id="totalNum"></span> </h5>
+                           
+
+                            <a href="" class="On-board-btn" id="total"> <button>SUBMIT</button></a>
+                        </form>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/function.js"></script>
+</body>
+</html>
